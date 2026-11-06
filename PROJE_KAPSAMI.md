@@ -29,4 +29,4 @@ Resmî uygunluk dosyası üreticinin/yetkili tarafın teknik ölçümlerini, çi
 
 ## Föy ile ilişkinin sınırı
 
-`docs/` içindeki PDF, **yalnızca kapak + LAB 1–4 (toplam 5 sayfa)** içerir. LAB 5, LAB 6 ve LAB 7 henüz eklenmemiştir; ders ilerledikçe tamamlanan sayfalar aynı PDF’ye sırasıyla eklenecektir. Haftalık föy ile dönemin CE teknik dosyası **aynı teslim değildir**; repo teknik dosya çalışmalarıyla ayrıca genişletilebilir.
+`docs/` içindeki PDF **kapak + LAB 1–7 (toplam 8 sayfa)** içerir. Bu PDF, dersin laboratuvar föyünün tamamlanan sürümüdür. Akademik CE teknik dosyası **ayrı bir çalışma/teslimdir**; föyün tamamlanması makinenin CE uygunluğunun doğrulandığı anlamına gelmez.

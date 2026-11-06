@@ -4,7 +4,7 @@
 **Hazırlayan:** Enes Özgür Ören  
 **Grup:** Gece  
 **Tarih:** 23.10.2026  
-**Durum:** Kapak + LAB 1–4 tamamlandı (23.10.2026); sonraki laboratuvarlar haftalık eklenecek
+**Durum:** Kapak + LAB 1–7 tamamlandı (06.11.2026); akademik CE teknik dosyası çalışması ayrıca devam ediyor
 
 ## Projenin amacı
 
@@ -16,7 +16,7 @@ Bu repo gerçek bir CE belgesi, resmî sertifikasyon veya makinenin güvenli old
 
 | Dosya | Açıklama |
 | --- | --- |
-| [`docs/Haas_VF2_Laboratuvar_Foyu.pdf`](docs/Haas_VF2_Laboratuvar_Foyu.pdf) | Şu ana kadar tamamlanan kapak ve LAB 1–4 bölümleri (5 sayfa). Bu aşamada LAB 5–7 repoda yer almaz. |
+| [`docs/Haas_VF2_Laboratuvar_Foyu.pdf`](docs/Haas_VF2_Laboratuvar_Foyu.pdf) | Tamamlanan kapak ve LAB 1–7 bölümleri (8 sayfa). |
 | [`analizler/SWOT_Analizi.md`](analizler/SWOT_Analizi.md) | Projenin ve seçilen makinenin güçlü/zayıf yönleri, fırsatlar ve tehditler. |
 | [`analizler/SMART_Analizi.md`](analizler/SMART_Analizi.md) | Somut, ölçülebilir, ulaşılabilir, ilgili ve zaman sınırı olan proje hedefleri. |
 | [`kaynaklar/Kaynaklar.md`](kaynaklar/Kaynaklar.md) | Üretici ve güvenlik açığı kayıtlarına bağlantılar, kanıt durumu. |
@@ -45,20 +45,22 @@ Referans: https://nvd.nist.gov/vuln/detail/CVE-2022-2474
 4. Gerçek CE uygunluğu beyan etmek yerine örnek teknik dosya taslağı üret.
 5. Yeni belge ve test kanıtlarını kaynak/tarih/sürüm bilgisiyle ekle.
 
-## Haftalık güncelleme yöntemi
+## Haftalık güncelleme yöntemi ve tamamlanma durumu
 
-- **Mevcut sürüm:** Kapak + LAB 1, LAB 2, LAB 3 ve LAB 4 (5 sayfa).
-- **LAB 5 işlendiğinde:** Önceki sayfaları koruyarak tamamlanan LAB 5 sayfası PDF’ye eklenir; değişiklik yeni bir Git commit’i olarak yayımlanır.
-- **LAB 6 ve LAB 7:** Aynı şekilde yalnızca tamamlandıktan sonra eklenir.
-- **SWOT ve SMART:** Analizler proje kapsamı ve yeni bulgular geliştikçe revize edilir; kayıtlarda doğrulanmış bilgi ile varsayımlar ayrılır.
-- **Revizyon disiplini:** Her haftaki commit mesajında eklenen laboratuvar, tarih ve temel değişiklik yazılır.
+- **06.11.2026 sürümü:** Kapak + LAB 1–7 (8 sayfa). İlk 5 sayfa (kapak ve LAB 1–4) aynen korunmuştur.
+- **LAB 5:** SBOM / CVE / Patch değerlendirmesi eklendi.
+- **LAB 6:** CRA olay müdahale simülasyonu eklendi.
+- **LAB 7:** AI Safety Challenge senaryosu eklendi. Buradaki YZ uygulaması, Haas VF-2 üzerinde doğrulanmış bir donanım özelliği değil, laboratuvar senaryosudur.
+- **SWOT ve SMART:** Mevcut analizler saklanmıştır. Sonraki teknik dosya aşamalarında gerekirse ayrıca revize edilebilir.
+- **Revizyon disiplini:** Yeni teknik dosya kanıtları ve değişiklikler, ayrı Git commit'leriyle izlenir.
 
 | Bölüm | Repo durumu |
 | --- | --- |
 | Kapak ve LAB 1–4 | Tamamlandı / PDF’de |
-| LAB 5 | Henüz eklenmedi |
-| LAB 6 | Henüz eklenmedi |
-| LAB 7 | Henüz eklenmedi |
+| LAB 5 | Tamamlandı / PDF’de |
+| LAB 6 | Tamamlandı / PDF’de |
+| LAB 7 | Tamamlandı / PDF’de |
+| CE teknik dosyası | Hazırlık / ayrıca geliştirilecek |
 
 ## Planlanan devam
 
